@@ -9,6 +9,10 @@ body{
    
     
 }
+* {
+  box-sizing: border-box;
+}
+
 #overlay {
   position: fixed;
   display: none;
@@ -983,5 +987,6 @@ padding-right: 50px;
   visibility: visible;
 }
 @media screen and (max-width: 480px) {
-    width:450px;
+    width:470px;
+  
   }
