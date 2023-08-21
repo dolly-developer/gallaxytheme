@@ -986,7 +986,9 @@ padding-right: 50px;
   opacity: 1;
   visibility: visible;
 }
-@media screen and (max-width: 480px) {
-    width:470px;
+@media screen and (max-width: 800px) {
+   .container,.container2{
+      width:100%;
+    }
   
   }
